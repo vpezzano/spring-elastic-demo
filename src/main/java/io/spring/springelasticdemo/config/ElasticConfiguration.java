@@ -1,4 +1,4 @@
-package com.valpez.springelasticdemo.config;
+package io.spring.springelasticdemo.config;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.valpez.springelasticdemo.repository.jpa")
-@EnableElasticsearchRepositories(basePackages = "com.valpez.springelasticdemo.repository.elastic")
+@EnableJpaRepositories(basePackages = "io.spring.springelasticdemo.repository.jpa")
+@EnableElasticsearchRepositories(basePackages = "io.spring.springelasticdemo.repository.elastic")
 public class ElasticConfiguration {
 	@Bean
 	NodeBuilder nodeBuilder() {

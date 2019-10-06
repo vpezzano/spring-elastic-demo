@@ -1,4 +1,4 @@
-package com.valpez.springelasticdemo.loader;
+package io.spring.springelasticdemo.loader;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.valpez.springelasticdemo.model.User;
-import com.valpez.springelasticdemo.repository.elastic.ElasticUserRepository;
-import com.valpez.springelasticdemo.repository.jpa.JpaUserRepository;
+import io.spring.springelasticdemo.model.User;
+import io.spring.springelasticdemo.repository.elastic.ElasticUserRepository;
+import io.spring.springelasticdemo.repository.jpa.JpaUserRepository;
 @Component
 public class ElasticLoader {
 	@Autowired

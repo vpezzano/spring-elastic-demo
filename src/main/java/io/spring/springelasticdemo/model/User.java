@@ -1,4 +1,4 @@
-package com.valpez.springelasticdemo.model;
+package io.spring.springelasticdemo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

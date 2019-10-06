@@ -1,10 +1,10 @@
-package com.valpez.springelasticdemo.repository.elastic;
+package io.spring.springelasticdemo.repository.elastic;
 
 import java.util.List;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 
-import com.valpez.springelasticdemo.model.User;
+import io.spring.springelasticdemo.model.User;
 
 @Repository
 public interface ElasticUserRepository extends ElasticsearchRepository<User, Long> {

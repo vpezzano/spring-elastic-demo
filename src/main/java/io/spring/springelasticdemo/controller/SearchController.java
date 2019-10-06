@@ -1,4 +1,4 @@
-package com.valpez.springelasticdemo.controller;
+package io.spring.springelasticdemo.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.valpez.springelasticdemo.model.User;
-import com.valpez.springelasticdemo.repository.elastic.ElasticUserRepository;
+import io.spring.springelasticdemo.model.User;
+import io.spring.springelasticdemo.repository.elastic.ElasticUserRepository;
 
 @RestController
 @RequestMapping("/rest/search")

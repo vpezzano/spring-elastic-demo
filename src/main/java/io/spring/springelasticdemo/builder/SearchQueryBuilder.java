@@ -1,4 +1,4 @@
-package com.valpez.springelasticdemo.builder;
+package io.spring.springelasticdemo.builder;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Component;
 
-import com.valpez.springelasticdemo.model.User;
+import io.spring.springelasticdemo.model.User;
 
 /*
  * Elasticsearch DSL is a high-level library whose aim is to help with writing and running

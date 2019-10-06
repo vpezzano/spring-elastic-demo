@@ -1,4 +1,4 @@
-package com.valpez.springelasticdemo;
+package io.spring.springelasticdemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
